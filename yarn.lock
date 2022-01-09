@@ -954,7 +954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-modules-commonjs@npm:^7.15.0, @babel/plugin-transform-modules-commonjs@npm:^7.16.7, @babel/plugin-transform-modules-commonjs@npm:^7.2.0":
+"@babel/plugin-transform-modules-commonjs@npm:^7.15.0, @babel/plugin-transform-modules-commonjs@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-transform-modules-commonjs@npm:7.16.7"
   dependencies:
@@ -2964,29 +2964,6 @@ __metadata:
     vue: 2.x
     vue-template-compiler: ^2.x
   checksum: 5f93a1ce3aeb60d93fcf4ea7b28a2d4a327a8309441e87fa1e6c1314106287603d0f2868a084096b7b3db32cc69bba18974f8ba3a19212c7732c05e4da726f61
-  languageName: node
-  linkType: hard
-
-"@vue/vue2-jest@npm:latest":
-  version: 27.0.0-alpha.4
-  resolution: "@vue/vue2-jest@npm:27.0.0-alpha.4"
-  dependencies:
-    "@babel/plugin-transform-modules-commonjs": ^7.2.0
-    "@vue/component-compiler-utils": ^3.1.0
-    chalk: ^2.1.0
-    extract-from-css: ^0.4.4
-    source-map: 0.5.6
-  peerDependencies:
-    "@babel/core": 7.x
-    babel-jest: ">= 27 < 28"
-    jest: 27.x
-    ts-jest: ">= 27 < 28"
-    vue: ^2.x
-    vue-template-compiler: ^2.x
-  peerDependenciesMeta:
-    ts-jest:
-      optional: true
-  checksum: 150eab784e87d4d1c6818f9f5d3f50aca950e07c224bcc68cf9c1c652bdb43be1844f472165d225fafb0c26640042b75336e3157efb23b93337ae1fba68d13d2
   languageName: node
   linkType: hard
 
@@ -14112,13 +14089,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:0.5.6":
-  version: 0.5.6
-  resolution: "source-map@npm:0.5.6"
-  checksum: 390b3f5165c9631a74fb6fb55ba61e62a7f9b7d4026ae0e2bfc2899c241d71c1bccb8731c496dc7f7cb79a5f523406eb03d8c5bebe8448ee3fc38168e2d209c8
-  languageName: node
-  linkType: hard
-
 "source-map@npm:^0.5.0, source-map@npm:^0.5.6":
   version: 0.5.7
   resolution: "source-map@npm:0.5.7"
@@ -15820,7 +15790,6 @@ __metadata:
     "@vue/eslint-config-prettier": ^6.0.0
     "@vue/eslint-config-typescript": ^7.0.0
     "@vue/test-utils": ^1.3.0
-    "@vue/vue2-jest": latest
     core-js: ^3.6.5
     eslint: ^6.7.2
     eslint-import-resolver-alias: ^1.1.2
