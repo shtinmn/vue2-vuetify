@@ -15814,6 +15814,7 @@ __metadata:
     vue-template-compiler: ^2.6.11
     vuetify: ^2.4.0
     vuex: ^3.4.0
+    vuex-smart-module: ^1.0.0
   languageName: unknown
   linkType: soft
 
@@ -15830,6 +15831,13 @@ __metadata:
   peerDependencies:
     vue: ^2.6.4
   checksum: 1f0075fdf7442d62a955d72b89cfce1e3dfdb8306f7c8cac62a9096962770f8a4d1ec1495140b41aaee696884e67301bd05b326e5388c04eee13b2254aae8dc7
+  languageName: node
+  linkType: hard
+
+"vuex-smart-module@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "vuex-smart-module@npm:1.0.0"
+  checksum: 752e6ee2d0993ecb2143a96857bfa863d9118be75476879b70670038f6b56e40f8744f882f33e6ceeeccf02f8f7e80f3ac76f131e1c8539528fc269b0fbfb1af
   languageName: node
   linkType: hard
 
