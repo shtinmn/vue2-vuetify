@@ -2,29 +2,65 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
     "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
+    "typeRoots": [
+      "src/@types",
+      "node_modules/@types/"
+    ],
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "vuetify"
     ],
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "~/*": [
+        "src/*"
+      ],
+      "~~/*": [
+        "src/*"
+      ],
+      "@@/*": [
+        "src/*"
       ]
     },
     "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
+      "ESNext.AsyncIterable",
+      "scripthost",
+      "ES2017"
     ]
   },
   "include": [
@@ -35,6 +71,7 @@
     "tests/**/*.tsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings"
   ]
 }
