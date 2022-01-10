@@ -10,6 +10,7 @@ const routes: Array<RouteConfig> = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: { layout: 'AppLayout' },
   },
   {
     path: '/about',
