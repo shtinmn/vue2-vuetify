@@ -167,7 +167,7 @@ export default {
   // A map from regular expressions to paths to transformers
   transform: {
     // process `*.vue` files with `vue-jest`
-    '.*\\.(vue)$': 'vue-jest',
+    '.*\\.(vue)$': '@vue/vue2-jest',
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
