@@ -1,4 +1,8 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
 import { Actions, createStore, Getters, Module, Mutations } from 'vuex-smart-module'
+
+Vue.use(Vuex)
 
 class RootState {
   name = 123
